@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-------------------- HERO SECTION ------------------------------>
+    <header class="navbar">
+    <div class="logo">
+        <img src="img/StrangerThings-Logo.png" alt="Stranger Things">
+    </div>
+
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#personagens">Personagens</a></li>
+            <li><a href="#temporadas">Temporadas</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li class="mobile-only"><a href="https://www.netflix.com" class="btn-netflix">Netflix</a></li>
+        </ul>
+    </nav>
+
+    <div class="nav-button desktop-only">
+        <a href="https://www.netflix.com" class="btn-netflix">Netflix</a>
+    </div>
+</header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img class="hero-logo" src="img/StrangerThings-Logo Maior.png" alt="Stranger Things">
+
+            <button class="btn-hero">Saiba Mais</button>
+        </div>
+    </section>
+
+
+
+    <!-------------------- PERSONAGENS SECTION ------------------------------>
+    <section id="personagens" class="personagens">
+        <h2 class="title">Personagens</h2>
+        <div class="person-container">
+            <div class="list">
+                <div class="item active">
+
+                    <div class="person-img">
+                        <img src="img/Eleven.png" alt="Eleven">
+                    </div>
+
+                    <div class="person-content">
+                        <h3 class="tag">Eleven</h3>
+                        <p class="description">Uma garota com poderes telecinéticos criada em laboratório pelo Dr.
+                            Brenner. Escapou de Hawkins Lab e passou a viver experiências de amizade, amor e identidade.
+                            Sua jornada é marcada pela busca de pertencimento e pelo enfrentamento do Mundo Invertido.
+                            Filha adotiva de Jim Hopper.</p>
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="person-img">
+                        <img src="img/Will.png" alt="Will">
+                    </div>
+
+                    <div class="person-content">
+                        <h3 class="tag">Will</h3>
+                        <p class="description">Menino tímido e artístico que desaparece na primeira temporada, ficando
+                            preso no Mundo Invertido. Após isso, permanece conectado a ele, sofrendo consequências
+                            físicas e emocionais profundas, principalmente ligadas ao Vecna.</p>
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="person-img">
+                        <img src="img/Mike.png" alt="Mike">
+                    </div>
+
+                    <div class="person-content">
+                        <h3 class="tag">Mike</h3>
+                        <p class="description">Inteligente, leal e sensível, é o líder natural do grupo. Desenvolve uma
+                            forte ligação emocional com Eleven e é conhecido por nunca desistir dos amigos,
+                            especialmente de Will.</p>
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="person-img">
+                        <img src="img/Dustin.png" alt="Dustin">
+                    </div>
+
+                    <div class="person-content">
+                        <h3 class="tag">Dustin</h3>
+                        <p class="description">Carismático, engraçado e extremamente inteligente. Conhecido pelo
+                            otimismo e pela habilidade em ciência e tecnologia, é o elo mais leve e comunicativo do
+                            grupo.</p>
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="person-img">
+                        <img src="img/Max.png" alt="Max">
+                    </div>
+
+                    <div class="person-content">
+                        <h3 class="tag">Max</h3>
+                        <p class="description">Max é um garoto de 12 anos que é transportado para o mundo de Hawkins,
+                            Indiana, após ser encontrado por um grupo de amigos.</p>
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="person-img">
+                        <img src="img/Lucas.png" alt="Lucas">
+                    </div>
+
+                    <div class="person-content">
+                        <h3 class="tag">Lucas</h3>
+                        <p class="description">Corajoso, racional e protetor. Sempre tenta manter o grupo seguro e
+                            amadurece bastante ao longo da série, equilibrando amizade, romance e escolhas difíceis.</p>
+                    </div>
+
+                </div>
+
+                <div class="item">
+
+                    <div class="person-img">
+                        <img src="img/Vecna.png" alt="Vecna">
+                    </div>
+
+                    <div class="person-content">
+                        <h3 class="tag">Vecna</h3>
+                        <p class="description">Principal vilão da série. Antigo experimento do laboratório de Hawkins,
+                            com poderes psíquicos extremamente fortes. Usa traumas e medos das vítimas para matá-las e
+                            controla o Mundo Invertido.</p>
+                    </div>
+
+                </div>
+                <div class="arrows">
+                    <button class="arrow-btn" id="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--vermelho-luz)"
+                            class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                            <path
+                                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                        </svg>
+                    </button>
+                    <button class="arrow-btn" id="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="var(--vermelho-luz)"
+                            class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path
+                                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--------------------- TEMPORADAS SECTION ------------------------------>
+    <section id="temporadas" class="temporadas">
+        <h2>Temporadas</h2>
+
+        <div class="cards">
+            <div class="card">
+              <img src="img/Stranger Things Aesthetic.jpeg">
+              <div class="info">
+                <span class="age">14</span>
+                <span class="ano">2016 • 8 episódios</span>
+                <p class="information">Na cidade de Hawkins, o garoto Will Byers desaparece misteriosamente. Seus amigos (Mike, Dustin e Lucas) encontram Eleven, uma garota com poderes telecinéticos que fugiu de um laboratório secreto. Enquanto isso, a cidade descobre a existência do Mundo Invertido e de uma criatura aterrorizante, o Demogorgon.</p>
+              </div>
+            </div>
+        
+            <div class="card">
+              <img src="img/Stranger Things.jpeg">
+              <div class="info">
+                <span class="age">14</span>
+                <span class="ano">2017 • 9 episódios</span>
+                <p class="information">Will retorna, mas não está totalmente livre do Mundo Invertido. Ele passa a ter visões e é possuído pelo Devorador de Mentes. Eleven busca entender suas origens, enquanto o grupo tenta fechar o portal aberto em Hawkins e impedir que o mal se espalhe.</p>
+              </div>
+            </div>
+        
+            <div class="card">
+              <img src="img/fearstreet 1994 aesthetic.jpeg">
+              <div class="info">
+                <span class="age red">16</span>
+                <span class="ano">2019 • 8 episódios</span>
+                <p class="information">A cidade ganha o Shopping Starcourt, mas algo sinistro se esconde por trás dele. Russos estão envolvidos em experimentos secretos, e o Devorador de Mentes volta ainda mais forte. A temporada mistura terror, ação e romance adolescente, com grandes perdas emocionais.</p>
+              </div>
+            </div>
+        
+            <div class="card">
+              <img src="img/Leaving Hawkins.jpeg">
+              <div class="info">
+                <span class="age">A14</span>
+                <span class="ano">2022 • 9 episódios</span>
+                <p class="information">Um novo vilão surge: Vecna, que mata suas vítimas explorando traumas psicológicos. Os personagens estão espalhados por diferentes lugares (Hawkins, Califórnia e Rússia). O passado de Eleven é revelado, e a ameaça ao mundo real se torna mais grave do que nunca.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    </div>
+    </section>
+
+
+
+    <!--------------------- FOOTER SECTION ------------------------------>
+    <footer id="contato" class="footer">
+        <div>
+            <img src="img/StrangerThings-Logo.png" class="footer-logo">
+        </div>
+
+        <div>
+            <h4>Onde assistir</h4>
+            <a href="https://www.netflix.com" class="footer-info">Netflix</a>
+        </div>
+
+        <div>
+            <h4>Explorar</h4>
+            <a href="#home" class="fotter-info">Home</a>
+            <a href="#personagens" class="footer-info">Personagens</a>
+            <a href="#temporadas" class="footer-info">Temporadas</a>
+        </div>
+
+        <div>
+            <h4>Contato</h4>
+            <a href="https://www.linkedin.com/in/isabela-siqueira-013785128/" class="footer-info">LinkedIn</a>
+            <a href="https://www.instagram.com/isa_siqueira03/" class="footer-info">Instagram</a>
+            <a href="https://github.com/IsabelaSQ" class="footer-info">GitHub</a>
+        </div>
+
+    <span class="copy">© 2025. All rights reserved</span>
+    </footer>
+    </body>
+<script src="script.js"></script>
+</html>
